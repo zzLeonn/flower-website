@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FiArrowDown } from 'react-icons/fi';
+import React from 'react';
 
 const Home = () => {
   const [ref, inView] = useInView({
